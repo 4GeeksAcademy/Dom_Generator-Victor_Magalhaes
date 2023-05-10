@@ -6,7 +6,7 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  document.getElementById("newDom").innerHTML = generateDom();
+  document.getElementById("dom").innerHTML = generateDom();
 };
 
 const generateDom = () => {
@@ -22,8 +22,6 @@ const generateDom = () => {
     extensions[Math.floor(Math.random() * 4)]
   );
 };
-
-
 
 /*window.onload = function() {
   //write your code here
